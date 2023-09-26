@@ -1,0 +1,1 @@
+In 01_Basic folder it has some basic js code snippets, and this will be helpfull for learning JS.
