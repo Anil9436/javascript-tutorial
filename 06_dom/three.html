@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating a DOM element</title>
+</head>
+<body>
+    
+</body>
+<script>
+    const div = document.createElement("div");
+    div.id = "temporary"
+    div.className = "createDOM"
+    div.appendChild(document.createTextNode("Hello world"))
+    div.style.backgroundColor="#212121"
+    div.style.color="#ffff"
+    document.body.appendChild(div)
+</script>
+</html>
